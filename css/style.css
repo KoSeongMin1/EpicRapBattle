@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 262px;
+    height: 969px;
+    background-color: #480b02;
+    display: inline-block;
+    position: fixed;
+}
+.menu>img{
+    margin: 15px 5px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    text-align: center;
+    margin: 7.5px 0px;
+}
+.menu li>a:hover{
+    color: #ffb600;
+    cursor: pointer;
+}
+.menu li a{
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#accordian {
+	background: #480b02;
+	width: 100%;
+	color: white;
+}
+
+/* 메뉴 스타일 */
+#accordian h3 a {
+	font-size: 20px;
+	line-height: 34px;
+	padding:  3px;
+	cursor: pointer;
+	background: #480b02;
+}
+#accordian h3 a:hover {
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+/* 아이콘폰트 스타일 */
+#accordian h3 span {
+	font-size: 16px;
+	margin-right: 10px;
+}
+#accordian li {
+	list-style-type: none;
+}
+
+/* 서브메뉴 스타일 */
+#accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 27px;
+	display: block;
+	padding: 1px;
+	-webkit-transition: all 0.15s;
+	-moz-transition: all 0.15s;
+	-o-transition: all 0.15s;
+	-ms-transition: all 0.15s;
+	transition: all 0.15s;
+}
+#accordian ul ul li a:hover {
+	background: #2e0600;
+	border-left: 5px solid #ffb600;
+}
+
+/* active 클래스 외에 것은 보이지 않게 하기 */
+#accordian ul ul {
+	display: none;
+}
+
+
+
+
+.address{
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    z-index: 999;
+    position: fixed;
+}
+.address p{
+    color: #ffffff;
+    font-family: "Arial";
+    font-weight: 700px;
+    font-size: 15px;
+}
+.address span{
+    color: #ffb600;
+    font-family: "Arial";
+    font-size: 20px;
+}
+.link{
+    margin-top: 10px;
+}
+.link button{
+    background-color: inherit;
+    color: #ffb600;
+    border: none;
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+.contents{
+    width: 1658px;
+    height: 969px;
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+}
+#HOME{
+    width: 100%;
+    height: 969px;
+    background-color: #2e0600;
+}
+#HOME>img{
+    position: absolute;
+}
+#HOME .mainlogo{
+    position: relative;
+    z-index: 10px;
+    margin: 215px 704px 70px 704px;
+}
+#HOME hr{
+    border: 2.5px solid #ffffff;
+}
+.videoz{
+    margin-top: 10px;
+    width: 55%;
+}
+.videoz p{
+    color: #ffffff;
+    width: 500px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+}
+.imgs{
+    float: inherit;
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+    margin-left: 900px;
+}
+.imgs img{
+    display: inline-block;
+}
+.imgs .ad{
+    position: absolute;
+    width: 450px;
+    height: 249.75px;
+    margin-top: -500px;
+    
+}
+.tweet{
+    float: right;
+    margin-top: -500px;
+}
+.photos{
+    margin-top: -225px;
+    margin-left: 895px;
+    width: 470px;
+    position: absolute;
+}
+.photos img{
+    width: 150px;
+}
+.icons{
+    margin-top: -50px;
+    width: 450px;
+    position: absolute;
+}
+.icons img{
+    width: 60px;
+    margin: 0 5px;
+}
+
+
+
+
+#ABOUT{
+    width: 100%;
+    height: 969px;
+    background-color: aliceblue;
+}
+
+h1{
+    color: #ffb600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+iframe{
+    margin: 0px 22.7px;
+}
+.line1{
+    width: 1600px;
+    margin: 1px auto;
+}
+.line2{
+    width: 1600px;
+    margin: 1px auto;
+}
+.line3{
+    width: 1600px;
+    margin: 1px auto;
+}
+.line4{
+    width: 1600px;
+    margin: 1px auto;
+}
